@@ -1,2 +1,8 @@
 ---
 message: "This node is using common data"
+sources:
+  mysource:
+    remote: "git://github.com/AndrewCsoka/control-repo"
+    basedir: "/etc/puppetlabs/puppet/environments"
+    prefix: "testing"
+    invalid_branches: 'correct_and_warn'
