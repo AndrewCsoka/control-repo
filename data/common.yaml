@@ -1,7 +1,7 @@
 ---
 message: "This node is using common data"
 sources:
-  mysource:
+  puppet:
     remote: "git://github.com/AndrewCsoka/control-repo"
     basedir: "/etc/puppetlabs/puppet/environments"
     prefix: "testing"
